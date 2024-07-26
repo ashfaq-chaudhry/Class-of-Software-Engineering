@@ -1,26 +1,35 @@
 '''Items to include in your opening comment:
+-- A title for your program: Fermat's Last Theorem: 
+The Proof in the Pie!
+-- The name of the file that holds your program: 
+Fermat_Theorem
+-- A list of any external files necessary to run your program: 
+Does not apply (see GitHub)
+-- A list of external files your program creates: 
+Does not apply
+-- The names of any programmers working on the program: 
+Oscar Quiles, Muhammad Ashfaq
+-- Email address of all programmers: 
+oscardavidquiles@gmail.com; muhammadashfaq@lewisu.edu
+-- The course number and section number of the course you’re writing this program for: SU24-CPSC-60500-001 (Software Engineering)
+-- The date you finished the program and submitted it: 
+07/26/2024
+-- An explanation of what the program does: 
+* This program looks for near misses (numbers that are very similar yet different) in the following equation. 
+    * X^N + Y^N = Z^N.
+    * N represents the power that the user wishes to test and K is the range for X and Y which is between 10 and K.
+    * The program prints the results (nearest miss) based on the user's input.
+-- Any resources you used to complete the program: 
+https://math.stackexchange.com/questions/526330/fermats-last-theorem-near-misses
+-- Other comments that are required:
+Each declaration should include a comment that explains its use. 
+Each subprogram (function, subroutine, object,…) should have an opening comment describing its purpose)
+Each loop should be preceded by a comment that describes its purpose
+Eny statement that is particularly unclear or “tricky” should have a comment clarifying its use to the human reader
+-- What programming language to use? 
+Python
 
-a title for your program: Fermat's Last Theorem: The Proof in the Pie!
-the name of the file that holds your program: Fermat_Theorem
-a list of any external files necessary to run your program: Does not apply (see GitHub)
-a list of external files your program creates: Does not apply
-the names of any programmers working on the program: Oscar Quiles
-email address of all programmers: oscardavidquiles@gmail.com
-the course number and section number of the course you’re writing this program for: SU24-CPSC-60500-001 (Software Engineering)
-the date you finished the program and submitted it: 07/15/2024
-an explanation of what the program does: This program looks for near misses (numbers that are very similar yet different) in the following equation: X^N + Y^N = Z^N.
-N represents the power that the user wishes to test and K is the range for X and Y which is between 10 and K.
-The program prints the results (nearest miss) based on the user's input.
-any resources you used to complete the program: https://math.stackexchange.com/questions/526330/fermats-last-theorem-near-misses
-Other comments that are required:
-each declaration should include a comment that explains its use
-each subprogram (function, subroutine, object,…) should have an opening comment describing its purpose)
-each loop should be preceded by a comment that describes its purpose
-any statement that is particularly unclear or “tricky” should have a comment clarifying its use to the human reader
-What programming language to use? Python
 '''
-
-
 # This method asks the user for their inputs and starts the search for near misses.
 def main():
 
